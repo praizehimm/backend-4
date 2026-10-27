@@ -173,3 +173,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Security reports go through
 ## License
 
 [MIT](LICENSE)
+
+## Health Check Endpoint\n\nA GET /health endpoint must return 200 with database connectivity and Horizon reachability status. Load balancers and Kubernetes probes require this to route traffic away from unhealthy instances.
